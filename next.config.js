@@ -4,7 +4,9 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
-  }
+  },
+  basePath: '/frontendsupabase',
+  assetPrefix: '/frontendsupabase'
 }
 
 module.exports = nextConfig
