@@ -4,7 +4,7 @@ export const getData = async () => {
 }
 
 export const deleteData = (id: string) => {
-    fetch('https://api.hyunatic.com//deleteData', {
+    fetch('https://api.hyunatic.com/deleteData', {
         headers: {
             'Content-Type': 'application/json'
         },
@@ -14,7 +14,7 @@ export const deleteData = (id: string) => {
 }
 
 export const createData = (data) => {
-    fetch('https://api.hyunatic.com//createData', {
+    fetch('https://api.hyunatic.com/createData', {
         headers: {
             'Content-Type': 'application/json'
         },
